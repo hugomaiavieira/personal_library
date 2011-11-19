@@ -1,4 +1,4 @@
-#book-report
+#personal library
 
 Project using the Django framework. More details latter.
 

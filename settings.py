@@ -1,4 +1,4 @@
-# Django settings for book_report project.
+# Django settings for personal_library project.
 
 import os
 
@@ -15,7 +15,7 @@ MANAGERS = ADMINS
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(PROJECT_ROOT_PATH,'book-report.db'),
+        'NAME': os.path.join(PROJECT_ROOT_PATH,'personal_library.db'),
     }
 }
 
@@ -103,7 +103,7 @@ MIDDLEWARE_CLASSES = (
     'django.contrib.messages.middleware.MessageMiddleware',
 )
 
-ROOT_URLCONF = 'book_report.urls'
+ROOT_URLCONF = 'personal_library.urls'
 
 TEMPLATE_DIRS = (
     # Put strings here, like "/home/html/django_templates" or "C:/www/django/templates".
