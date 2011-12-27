@@ -1,0 +1,5 @@
+Django==1.3.1
+south==0.7.3
+ipython==0.11
+# to deploy on heroku
+psycopg2==2.4.2
